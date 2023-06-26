@@ -1,0 +1,132 @@
+/* universal css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.conatiner {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+video {
+    width: 100%;
+    max-width: 100%;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    
+}
+h1 {
+    font-size: 42px;
+}
+h2 {
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+h3 {
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+h4 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+/* banner css */
+.inner-banner {
+    background-image: url(../image/inner-banner.jpg);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.title-text {
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+}
+
+/* main part */
+.wrapper .main-section {
+    padding-top: 40px;
+}
+.custom-row {
+    display: flex;
+    margin: 0 -15px;
+}
+.custom-colum-left {
+    flex: 0 0 80%;
+    max-width: 80%;
+    padding: 0 15px;
+}
+.custom-colum-right {
+    flex: 0 0 20%;
+    max-width: 20%;
+    padding: 0 15px;
+}
+.title-block p {
+    line-height: 1.3;
+    font-size: 18px;
+}
+
+.title-block {
+    margin-bottom: 20px;
+}
+/* custom block1 */
+.custom-block {
+    margin: 30px 0;
+}
+.custom-block .custom-row .custom-colum {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 15px;
+    margin-bottom: 15px;  
+}
+.list-block ul {
+    padding-left: 20px;
+}
+.list-block ul li {
+    list-style-type: disc;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.custom-row.has-three-column {
+    display: flex;
+    margin: 0 -15px;
+}
+.custom-row.has-three-column .custom-colum {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    padding: 0 15px;
+}
+.list-block ol {
+    padding-left: 32px;
+}
+.list-block ol li {
+    list-style-type: lower-roman;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.custom-block .image-block {
+    margin-bottom: 25px;   
+}
+.custom-colum-right .image-card{
+    margin-bottom: 25px;
+}
+.custom-block .video-block{
+    margin-bottom: 15px;
+}
+
